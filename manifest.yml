@@ -1,0 +1,13 @@
+---
+applications:
+- name: smalik-elasticsearch
+  buildpack: binary_buildpack
+  disk_quota: 2G
+  instances: 1
+  memory: 1G
+  routes:
+  - route: smalik-elasticsearch.cfapps.io
+  command: ./start.sh
+  path: .
+  env:
+    ES_JAVA_OPTS: "-Xms512m -Xmx512m"
