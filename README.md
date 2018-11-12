@@ -1,4 +1,4 @@
-## Run single-node ElasticSearch as app in cloud-foundry
+## Run single-node ElasticSearch as an app in CloudFoundry
 
 Sometimes you need elasticsearch for development purposes - this app will do that.
 
